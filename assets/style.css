@@ -207,7 +207,7 @@ nav{
 .card{
     margin-top: 50px;
     width: calc(100% / 3);
-    height: 1000px;
+    height: 1050px;
     border: 1px solid black;
 }
 
@@ -444,7 +444,7 @@ li{
 
 .box{
     width: calc(100% / 3.5);
-    height: 500px;
+    height: calc(100% / 2);
 }
 
 .box-img{
