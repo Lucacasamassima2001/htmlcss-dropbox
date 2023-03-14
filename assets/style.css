@@ -135,7 +135,7 @@ nav{
 
 /* START CARDS SECTION */
 
-.section-1{
+#section-1{
     height: 1250px;
     margin-top: 200px;
 }
@@ -715,3 +715,58 @@ li{
 
  /* END ANSWERS SECTION */
 
+
+ footer{
+    height: 600px;
+    background-color: rgba(0,0,0,255);
+    /* display: flex;
+    justify-content: center; */
+    gap: 1em;
+    padding: 5em;
+    padding-inline: 8em;
+ }
+ 
+ .lists-container{
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .list{
+    width: calc(100% / 5);
+    height: 300px;
+    padding: 2em;
+    color: white;
+ }
+
+li:hover{
+    cursor: pointer;
+}
+
+
+li:first-of-type{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+li:first-of-type:hover{
+    cursor: pointer;
+}
+
+.language{
+    margin-top: 100px;
+    margin-left: 12%;
+    width: 8%;
+    height: 100px;
+    border-top: 2px solid grey;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.language:hover{
+    cursor: pointer;
+}
