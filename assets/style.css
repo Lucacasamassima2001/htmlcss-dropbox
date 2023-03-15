@@ -87,7 +87,6 @@ nav{
 
 .first-title{
     font-size: 4em;
-    font-weight: 900;
 }
 
 .text-1{
@@ -766,8 +765,6 @@ li{
  footer{
     height: 600px;
     background-color: rgba(0,0,0,255);
-    /* display: flex;
-    justify-content: center; */
     gap: 1em;
     padding: 5em;
     padding-inline: 8em;
