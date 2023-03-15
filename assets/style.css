@@ -199,6 +199,7 @@ nav{
 
 .cards{
     width: 100%;
+    height: auto;
     display: flex;
     gap: 2em;
 }
@@ -206,7 +207,6 @@ nav{
 .card{
     margin-top: 50px;
     width: calc(100% / 3);
-    height: 1050px;
     border: 1px solid black;
 }
 
@@ -312,9 +312,24 @@ ul{
     list-style: none;
 }
 
+.card-list{
+    margin-left: 1em;
+}
+
+
 li{
     margin-top: 1em;
 }
+
+.card-list li:before {    
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 5px 0 -1.3em;
+    color: rgba(3,98,255,255);
+}
+
+
+
 
 
 
@@ -715,20 +730,24 @@ li{
     display: flex;
     justify-content: space-between;
     white-space: nowrap;
+    position: relative;
 }
 
 .question:hover .answer{
     display: block;
     background-color: rgba(180,208,231,255);
-    border: 2px solid grey;
-    padding: 1em;
+    border-bottom: 2px solid grey;
+    padding: .5em;
 }
+
+
 
 .answer{
     display: none;
     text-decoration: none;
     color: black;
 }
+
 
 .answer:hover{
     text-decoration: underline;
@@ -766,7 +785,9 @@ li{
     width: calc(100% / 5);
     height: 300px;
     padding: 2em;
+    margin-right: 1em;
     color: white;
+    white-space: nowrap;
  }
 
 li:hover{
@@ -777,6 +798,7 @@ li:hover{
 .first-li{
     font-size: 1.5em;
     font-weight: 900;
+    margin-bottom: 1.5em;
 }
 
 .first-li:hover{
