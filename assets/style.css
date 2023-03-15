@@ -318,6 +318,7 @@ li{
 }
 
 
+
 /* END CARDS SECTION */
 
 /* START ENTERPRISE SECTION */
@@ -774,12 +775,12 @@ li:hover{
 }
 
 
-li:first-of-type{
+.first-li{
     font-size: 1.5em;
     font-weight: 900;
 }
 
-li:first-of-type:hover{
+.first-li:hover{
     cursor: pointer;
 }
 
