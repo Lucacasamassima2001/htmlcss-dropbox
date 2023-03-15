@@ -135,7 +135,7 @@ nav{
 
 /* START CARDS SECTION */
 
-#section-1{
+#business{
     height: 1250px;
     margin-top: 200px;
 }
@@ -199,7 +199,6 @@ nav{
 
 .cards{
     width: 100%;
-    height: 100%;
     display: flex;
     gap: 2em;
 }
@@ -218,7 +217,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: .5em;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .plan-name-cost-time{
@@ -324,7 +323,7 @@ li{
 /* START ENTERPRISE SECTION */
 
 
-.section-2{
+.enterprise-section{
     height: 280px;
     margin-top: 30px;
 }
@@ -375,9 +374,9 @@ li{
 /* END ENTERPRISE SECTION */
 
 
-/* START 3RD SECTION */
+/* START partner-section SECTION */
 
-.section-3{
+.partner-section{
     height: 400px;
     margin-top: 200px;
 }
@@ -415,7 +414,7 @@ li{
 
 }
 
-/* END 3RD SECTION */
+/* END partner-section SECTION */
 
 /* START BOXES SECTION */
 
